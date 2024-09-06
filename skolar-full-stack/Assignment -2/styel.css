@@ -1,0 +1,46 @@
+.section{
+  display:block;
+  margin:150px;
+  padding:auto;
+  
+}
+.form{
+    padding:100px;
+    display:block;
+    margin:20px;
+    background-color: rgb(193, 244, 244);
+    border-radius: 20px;
+    width:220px;
+    height:300px;
+    justify-content: center;
+}
+#inputs{
+  
+  padding:10px;
+  width:190px;
+  display:block;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(248, 196, 232);
+  color:rgb(222, 45, 119)violet;
+  border-radius: 20px;
+  
+}
+#lable{
+  
+  padding:10px;
+  width:100px;
+  display:block;
+  justify-content: center;
+}
+#btn{
+  margin:20px;
+  border-radius: 10px;
+  padding:8px;
+
+}
+#check{
+  margin:15px;
+  padding:5px;
+ 
+}
