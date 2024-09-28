@@ -1,0 +1,52 @@
+/* Element Selector: styles all paragraph elements */
+p {
+    color: darkblue;
+    font-size: 16px;
+}
+
+/* Class Selector: styles elements with the 'nav-link' class */
+.nav-link {
+    color: green;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Class Selector: styles the list items within the 'custom-list' class */
+.custom-list li {
+    color: purple;
+    font-weight: bold;
+}
+
+/* ID Selector: styles the section with a unique ID 'unique-section' */
+#unique-section {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Attribute Selector: styles buttons with the 'type' attribute */
+button[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Pseudo-class: change color when a link is hovered */
+a:hover {
+    color: red;
+}
+
+/* Pseudo-class: apply effect on hover */
+.hover-effect:hover {
+    color: orange;
+    font-size: 18px;
+}
+
+/* Pseudo-element: add content before the hover-effect paragraph */
+.hover-effect::before {
+    content: "Note: ";
+    font-weight: bold;
+    color: red;
+}

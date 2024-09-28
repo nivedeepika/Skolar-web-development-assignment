@@ -1,0 +1,48 @@
+/* Defining CSS Variables */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #e74c3c;
+    --background-color: #f9f9f9;
+    --font-family: 'Arial, sans-serif';
+    --primary-font-size: 18px;
+    --button-padding: 10px 20px;
+}
+
+/* Applying CSS Variables */
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    font-size: var(--primary-font-size);
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+p {
+    font-size: calc(var(--primary-font-size) - 2px);
+    color: var(--secondary-color);
+}
+
+/* Button Styling */
+button {
+    padding: var(--button-padding);
+    border: none;
+    cursor: pointer;
+    font-size: var(--primary-font-size);
+    color: white;
+}
+
+.primary-btn {
+    background-color: var(--primary-color);
+}
+
+.secondary-btn {
+    background-color: var(--secondary-color);
+}
+
+/* Hover Effect using Variables */
+button:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,21 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Custom Local Font using @font-face */
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/MyCustomFont.woff2') format('woff2'),
+         url('fonts/MyCustomFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Using Google Font */
+    font-size: 16px;
+    color: #333;
+}
+
+.local-font {
+    font-family: 'MyCustomFont', sans-serif; /* Using Local Custom Font */
+}

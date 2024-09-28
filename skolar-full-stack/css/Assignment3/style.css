@@ -1,0 +1,30 @@
+/* Serif font */
+.serif-text {
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+/* Sans-serif font */
+.sans-serif-text {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Bold text */
+.bold-text {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Italic text */
+.italic-text {
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Uppercase text */
+.uppercase-text {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.5;
+}

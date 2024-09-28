@@ -1,0 +1,29 @@
+/* Color property */
+.color-text {
+    color: #3498db; /* Blue text */
+}
+
+/* Background color */
+.solid-bg {
+    background-color: #f39c12; /* Orange background */
+    padding: 20px;
+    color: white;
+}
+
+/* Background gradient */
+.gradient-bg {
+    background: linear-gradient(to right, #8e44ad, #3498db); /* Purple to Blue gradient */
+    padding: 20px;
+    color: white;
+}
+
+/* Background image */
+.image-bg {
+    background-image: url('example.jpg');
+    margin-top:400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+    color: white;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    @keyframes slide {
+    from { transform: translateX(0); }
+    to { transform: translateX(200px); }
+}
+
+.animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    animation: slide 2s infinite alternate;
+}
+
+</style>
+<body>
+    <div class="animated-box">I move!</div>
+</body>
+</html>
